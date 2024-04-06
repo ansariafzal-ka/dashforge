@@ -4,17 +4,16 @@ const connectDb = require("./src/config/mongodb");
 const cors = require("cors");
 const datasetRouter = require("./src/routes/dataset.routes");
 const userRouter = require("./src/routes/user.routes");
-const CookieParser = require("cookie-parser")
+const CookieParser = require("cookie-parser");
 const app = express();
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(CookieParser())
+app.use(CookieParser());
 
-app.use("/dataset/api/v1", datasetRouter);
-app.use("/users/api/v1", userRouter);
-
+app.use("/api/v1/dataset", datasetRouter);
+app.use("/api/v1/users", userRouter);
 
 connectDb();
 const PORT = process.env.PORT || 5000;

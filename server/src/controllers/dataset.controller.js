@@ -7,9 +7,19 @@ const numeric = require("../helpers/numeric");
 const nonNumeric = require("../helpers/nonNumeric");
 
 const datasetControllers = {
+  getAllDataset: async (req, res) => {
+    try {
+      const dataset = await Dataset.find({ user: req.userId });
+      res.status(200).json(dataset);
+    } catch (error) {
+      res.status(500).json({ message: "Dataset not found", error });
+    }
+  },
+
   getDataset: async (req, res) => {
     try {
-      const dataset = await Dataset.find();
+      const { id } = req.params;
+      const dataset = await Dataset.find({ user: req.userId, _id: id });
       res.status(200).json(dataset);
     } catch (error) {
       res.status(500).json({ message: "Dataset not found", error });
@@ -18,7 +28,8 @@ const datasetControllers = {
 
   getData: async (req, res) => {
     try {
-      const data = await Dataset.find();
+      const { id } = req.params;
+      const data = await Dataset.find({ user: req.userId, _id: id });
       res.status(200).json(data[0].dataset);
     } catch (error) {
       res.status(500).json({ message: "Dataset not found", error });
@@ -31,22 +42,17 @@ const datasetControllers = {
         res.status(400).json({ message: "Cannont find a csv file!" });
       }
 
-      const csvData = `Name,Age,Country,Gender,Occupation,Income,Education,Height,Weight,Experience
-      John,35,USA,Male,Engineer,75000,Bachelor's,175,75.5,8
-      Jane,28,UK,Female,Doctor,85000,Master's,163,60.3,6
-      Alex,40,Canada,Male,Teacher,55000,Bachelor's,180,80.1,10
-      Emily,32,Germany,Female,Software Developer,65000,PhD,168,65.2,7
-      Michael,45,France,Male,Accountant,70000,Bachelor's,172,70.9,9
-      Sophia,30,Italy,Female,Marketing Manager,90000,Master's,170,68.7,5
-      Matthew,37,Spain,Male,Lawyer,80000,Bachelor's,178,77.4,12
-      Olivia,29,Japan,Female,Graphic Designer,60000,Bachelor's,165,62.8,8
-      William,33,Australia,Male,Architect,72000,Master's,183,82.6,11
-      Isabella,31,China,Female,Research Scientist,68000,PhD,175,78.2,9      
+      const csvData = `Name,Age,Gender,Country
+      John Doe,30,Male,USA
+      Jane Smith,25,Female,Canada
+      Michael Johnson,40,Male,UK
+      Emily Brown,35,Female,Australia                
       `;
 
       const jsonData = csvToJson(csvData);
 
       await Dataset.create({
+        user: req.userId,
         dataset: jsonData,
       });
 
@@ -58,7 +64,8 @@ const datasetControllers = {
 
   getAnalysis: async (req, res) => {
     try {
-      const data = await Dataset.find();
+      const { id } = req.params;
+      const data = await Dataset.find({ user: req.userId, _id: id });
       const analysis = analyzeData(data[0].dataset);
       res.send(analysis);
     } catch (error) {
@@ -68,7 +75,8 @@ const datasetControllers = {
 
   getStatistics: async (req, res) => {
     try {
-      const data = await Dataset.find();
+      const { id } = req.params;
+      const data = await Dataset.find({ user: req.userId, _id: id });
       const generateStatistics = statistics(data[0].dataset);
       res.send(generateStatistics);
     } catch (error) {
@@ -78,7 +86,8 @@ const datasetControllers = {
 
   getNumeric: async (req, res) => {
     try {
-      const data = await Dataset.find();
+      const { id } = req.params;
+      const data = await Dataset.find({ user: req.userId, _id: id });
 
       const numericData = numeric(data[0].dataset);
       res.json(numericData);
@@ -89,7 +98,9 @@ const datasetControllers = {
 
   getNonNumeric: async (req, res) => {
     try {
-      const data = await Dataset.find();
+      const { id } = req.params;
+
+      const data = await Dataset.find({ user: req.userId, _id: id });
 
       const nonNumericData = nonNumeric(data[0].dataset);
       res.json(nonNumericData);
@@ -103,10 +114,16 @@ const datasetControllers = {
   deleteDataset: async (req, res) => {
     try {
       const { id } = req.params;
+      const dataset = await Dataset.findById(id);
+      if (dataset.user.toString() !== req.userId) {
+        return res
+          .status(403)
+          .json({ message: "not authorized to delete this resource" });
+      }
       await Dataset.findByIdAndDelete(id);
       res.status(200).json({ message: "Dataset deleted successfully" });
     } catch (error) {
-      res.status(500).json({ message: "Error fetching analysis", error });
+      res.status(500).json({ message: "dataset already deleted", error });
     }
   },
 };
