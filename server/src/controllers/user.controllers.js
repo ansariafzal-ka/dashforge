@@ -61,8 +61,7 @@ const userController = {
       return res
         .cookie("accessToken", token, {
           httpOnly: true,
-          maxAge: 1000 * 60 * 60 * 24 * 7,
-          sameSite: "None",
+          sameSite: "Lax",
           secure: false,
         })
         .status(200)

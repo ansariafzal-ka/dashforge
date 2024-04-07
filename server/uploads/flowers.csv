@@ -1,0 +1,502 @@
+Name,Color,Type,Price,InStock,BloomingSeason,Height,WaterNeeds,SunlightRequirements,NativeRegion
+Rose,Red,Perennial,10.99,Yes,Summer,24 inches,High,Full sun,Europe
+Tulip,Yellow,Bulb,8.50,Yes,Spring,12 inches,Medium,Full sun,Asia
+Daisy,White,Annual,5.99,Yes,Summer,18 inches,Low,Full sun,North America
+Lily,Pink,Perennial,12.75,Yes,Summer,36 inches,High,Partial shade,Asia
+Sunflower,Yellow,Annual,6.25,Yes,Summer,60 inches,High,Full sun,North America
+Daffodil,Yellow,Bulb,7.50,Yes,Spring,14 inches,Medium,Full sun,Europe
+Orchid,Purple,Perennial,15.99,Yes,Year-round,12 inches,High,Indirect light,Tropical
+Carnation,Red,Annual,4.75,Yes,Summer,20 inches,Medium,Full sun,Mediterranean
+Hydrangea,Blue,Shrub,14.25,Yes,Summer,48 inches,High,Partial shade,Asia
+Peony,Pink,Perennial,11.50,Yes,Spring,30 inches,Medium,Partial shade,Europe
+Marigold,Orange,Annual,3.99,Yes,Summer,10 inches,Low,Full sun,Europe
+Hibiscus,Red,Shrub,9.99,Yes,Summer,72 inches,High,Full sun,Tropical
+Lavender,Purple,Perennial,8.75,Yes,Summer,24 inches,Low,Full sun,Mediterranean
+Poppy,Red,Annual,5.25,Yes,Summer,18 inches,Low,Full sun,Eurasia
+Gerbera,Diverse,Perennial,10.50,Yes,Summer,12 inches,Medium,Full sun,Africa
+Chrysanthemum,Yellow,Perennial,9.25,Yes,Fall,24 inches,Medium,Full sun,Asia
+Forget-Me-Not,Blue,Perennial,6.99,Yes,Spring,8 inches,High,Partial shade,Europe
+Crocus,Purple,Bulb,6.50,Yes,Spring,6 inches,Low,Full sun,Europe
+Azalea,White,Shrub,13.50,Yes,Spring,36 inches,Medium,Partial shade,Asia
+Dahlia,Various,Perennial,12.00,Yes,Summer,24 inches,Medium,Full sun,Central America
+Columbine,Blue,Perennial,9.75,Yes,Spring,18 inches,Medium,Partial shade,North America
+Pansy,Purple,Annual,4.25,Yes,Summer,6 inches,Low,Partial shade,Europe
+Bougainvillea,Pink,Shrub,11.25,Yes,Summer,72 inches,High,Full sun,South America
+Foxglove,Purple,Perennial,10.25,Yes,Summer,36 inches,Medium,Partial shade,Europe
+Bleeding Heart,Pink,Perennial,13.99,Yes,Spring,24 inches,Medium,Partial shade,Asia
+Snapdragon,Mixed colors,Annual,7.99,Yes,Summer,18 inches,Medium,Full sun,Mediterranean
+Petunia,Purple,Annual,5.50,Yes,Summer,10 inches,Medium,Full sun,South America
+Gladiolus,Various,Perennial,9.99,Yes,Summer,36 inches,High,Full sun,Africa
+Morning Glory,Blue,Annual,6.75,Yes,Summer,72 inches,High,Full sun,North America
+Lupine,Various,Perennial,11.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Iris,Various,Perennial,8.99,Yes,Summer,24 inches,Medium,Full sun,North America
+Snowdrop,White,Bulb,5.99,Yes,Winter,6 inches,Low,Partial shade,Europe
+Verbena,Various,Annual,6.25,Yes,Summer,12 inches,Medium,Full sun,South America
+Anemone,Various,Perennial,9.50,Yes,Fall,18 inches,Medium,Partial shade,Europe
+Fuchsia,Purple,Perennial,12.75,Yes,Summer,24 inches,Medium,Partial shade,Central and South America
+Begonia,Various,Annual,5.99,Yes,Summer,10 inches,Medium,Partial shade,Tropical
+Zinnia,Mixed colors,Annual,4.75,Yes,Summer,24 inches,Low,Full sun,North America
+Ranunculus,Various,Perennial,11.99,Yes,Spring,18 inches,Medium,Partial shade,Europe
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Name,Color,Type,Price,InStock,BloomingSeason,Height,WaterNeeds,SunlightRequirements,NativeRegion
+Rose,Red,Perennial,10.99,Yes,Summer,24 inches,High,Full sun,Europe
+Tulip,Yellow,Bulb,8.50,Yes,Spring,12 inches,Medium,Full sun,Asia
+Daisy,White,Annual,5.99,Yes,Summer,18 inches,Low,Full sun,North America
+Lily,Pink,Perennial,12.75,Yes,Summer,36 inches,High,Partial shade,Asia
+Sunflower,Yellow,Annual,6.25,Yes,Summer,60 inches,High,Full sun,North America
+Daffodil,Yellow,Bulb,7.50,Yes,Spring,14 inches,Medium,Full sun,Europe
+Orchid,Purple,Perennial,15.99,Yes,Year-round,12 inches,High,Indirect light,Tropical
+Carnation,Red,Annual,4.75,Yes,Summer,20 inches,Medium,Full sun,Mediterranean
+Hydrangea,Blue,Shrub,14.25,Yes,Summer,48 inches,High,Partial shade,Asia
+Peony,Pink,Perennial,11.50,Yes,Spring,30 inches,Medium,Partial shade,Europe
+Marigold,Orange,Annual,3.99,Yes,Summer,10 inches,Low,Full sun,Europe
+Hibiscus,Red,Shrub,9.99,Yes,Summer,72 inches,High,Full sun,Tropical
+Lavender,Purple,Perennial,8.75,Yes,Summer,24 inches,Low,Full sun,Mediterranean
+Poppy,Red,Annual,5.25,Yes,Summer,18 inches,Low,Full sun,Eurasia
+Gerbera,Diverse,Perennial,10.50,Yes,Summer,12 inches,Medium,Full sun,Africa
+Chrysanthemum,Yellow,Perennial,9.25,Yes,Fall,24 inches,Medium,Full sun,Asia
+Forget-Me-Not,Blue,Perennial,6.99,Yes,Spring,8 inches,High,Partial shade,Europe
+Crocus,Purple,Bulb,6.50,Yes,Spring,6 inches,Low,Full sun,Europe
+Azalea,White,Shrub,13.50,Yes,Spring,36 inches,Medium,Partial shade,Asia
+Dahlia,Various,Perennial,12.00,Yes,Summer,24 inches,Medium,Full sun,Central America
+Columbine,Blue,Perennial,9.75,Yes,Spring,18 inches,Medium,Partial shade,North America
+Pansy,Purple,Annual,4.25,Yes,Summer,6 inches,Low,Partial shade,Europe
+Bougainvillea,Pink,Shrub,11.25,Yes,Summer,72 inches,High,Full sun,South America
+Foxglove,Purple,Perennial,10.25,Yes,Summer,36 inches,Medium,Partial shade,Europe
+Bleeding Heart,Pink,Perennial,13.99,Yes,Spring,24 inches,Medium,Partial shade,Asia
+Snapdragon,Mixed colors,Annual,7.99,Yes,Summer,18 inches,Medium,Full sun,Mediterranean
+Petunia,Purple,Annual,5.50,Yes,Summer,10 inches,Medium,Full sun,South America
+Gladiolus,Various,Perennial,9.99,Yes,Summer,36 inches,High,Full sun,Africa
+Morning Glory,Blue,Annual,6.75,Yes,Summer,72 inches,High,Full sun,North America
+Lupine,Various,Perennial,11.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Iris,Various,Perennial,8.99,Yes,Summer,24 inches,Medium,Full sun,North America
+Snowdrop,White,Bulb,5.99,Yes,Winter,6 inches,Low,Partial shade,Europe
+Verbena,Various,Annual,6.25,Yes,Summer,12 inches,Medium,Full sun,South America
+Anemone,Various,Perennial,9.50,Yes,Fall,18 inches,Medium,Partial shade,Europe
+Fuchsia,Purple,Perennial,12.75,Yes,Summer,24 inches,Medium,Partial shade,Central and South America
+Begonia,Various,Annual,5.99,Yes,Summer,10 inches,Medium,Partial shade,Tropical
+Zinnia,Mixed colors,Annual,4.75,Yes,Summer,24 inches,Low,Full sun,North America
+Ranunculus,Various,Perennial,11.99,Yes,Spring,18 inches,Medium,Partial shade,Europe
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Rose,Red,Perennial,10.99,Yes,Summer,24 inches,High,Full sun,Europe
+Tulip,Yellow,Bulb,8.50,Yes,Spring,12 inches,Medium,Full sun,Asia
+Daisy,White,Annual,5.99,Yes,Summer,18 inches,Low,Full sun,North America
+Lily,Pink,Perennial,12.75,Yes,Summer,36 inches,High,Partial shade,Asia
+Sunflower,Yellow,Annual,6.25,Yes,Summer,60 inches,High,Full sun,North America
+Daffodil,Yellow,Bulb,7.50,Yes,Spring,14 inches,Medium,Full sun,Europe
+Orchid,Purple,Perennial,15.99,Yes,Year-round,12 inches,High,Indirect light,Tropical
+Carnation,Red,Annual,4.75,Yes,Summer,20 inches,Medium,Full sun,Mediterranean
+Hydrangea,Blue,Shrub,14.25,Yes,Summer,48 inches,High,Partial shade,Asia
+Peony,Pink,Perennial,11.50,Yes,Spring,30 inches,Medium,Partial shade,Europe
+Marigold,Orange,Annual,3.99,Yes,Summer,10 inches,Low,Full sun,Europe
+Hibiscus,Red,Shrub,9.99,Yes,Summer,72 inches,High,Full sun,Tropical
+Lavender,Purple,Perennial,8.75,Yes,Summer,24 inches,Low,Full sun,Mediterranean
+Poppy,Red,Annual,5.25,Yes,Summer,18 inches,Low,Full sun,Eurasia
+Gerbera,Diverse,Perennial,10.50,Yes,Summer,12 inches,Medium,Full sun,Africa
+Chrysanthemum,Yellow,Perennial,9.25,Yes,Fall,24 inches,Medium,Full sun,Asia
+Forget-Me-Not,Blue,Perennial,6.99,Yes,Spring,8 inches,High,Partial shade,Europe
+Crocus,Purple,Bulb,6.50,Yes,Spring,6 inches,Low,Full sun,Europe
+Azalea,White,Shrub,13.50,Yes,Spring,36 inches,Medium,Partial shade,Asia
+Dahlia,Various,Perennial,12.00,Yes,Summer,24 inches,Medium,Full sun,Central America
+Columbine,Blue,Perennial,9.75,Yes,Spring,18 inches,Medium,Partial shade,North America
+Pansy,Purple,Annual,4.25,Yes,Summer,6 inches,Low,Partial shade,Europe
+Bougainvillea,Pink,Shrub,11.25,Yes,Summer,72 inches,High,Full sun,South America
+Foxglove,Purple,Perennial,10.25,Yes,Summer,36 inches,Medium,Partial shade,Europe
+Bleeding Heart,Pink,Perennial,13.99,Yes,Spring,24 inches,Medium,Partial shade,Asia
+Snapdragon,Mixed colors,Annual,7.99,Yes,Summer,18 inches,Medium,Full sun,Mediterranean
+Petunia,Purple,Annual,5.50,Yes,Summer,10 inches,Medium,Full sun,South America
+Gladiolus,Various,Perennial,9.99,Yes,Summer,36 inches,High,Full sun,Africa
+Morning Glory,Blue,Annual,6.75,Yes,Summer,72 inches,High,Full sun,North America
+Lupine,Various,Perennial,11.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Iris,Various,Perennial,8.99,Yes,Summer,24 inches,Medium,Full sun,North America
+Snowdrop,White,Bulb,5.99,Yes,Winter,6 inches,Low,Partial shade,Europe
+Verbena,Various,Annual,6.25,Yes,Summer,12 inches,Medium,Full sun,South America
+Anemone,Various,Perennial,9.50,Yes,Fall,18 inches,Medium,Partial shade,Europe
+Fuchsia,Purple,Perennial,12.75,Yes,Summer,24 inches,Medium,Partial shade,Central and South America
+Begonia,Various,Annual,5.99,Yes,Summer,10 inches,Medium,Partial shade,Tropical
+Zinnia,Mixed colors,Annual,4.75,Yes,Summer,24 inches,Low,Full sun,North America
+Ranunculus,Various,Perennial,11.99,Yes,Spring,18 inches,Medium,Partial shade,Europe
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Rose,Red,Perennial,10.99,Yes,Summer,24 inches,High,Full sun,Europe
+Tulip,Yellow,Bulb,8.50,Yes,Spring,12 inches,Medium,Full sun,Asia
+Daisy,White,Annual,5.99,Yes,Summer,18 inches,Low,Full sun,North America
+Lily,Pink,Perennial,12.75,Yes,Summer,36 inches,High,Partial shade,Asia
+Sunflower,Yellow,Annual,6.25,Yes,Summer,60 inches,High,Full sun,North America
+Daffodil,Yellow,Bulb,7.50,Yes,Spring,14 inches,Medium,Full sun,Europe
+Orchid,Purple,Perennial,15.99,Yes,Year-round,12 inches,High,Indirect light,Tropical
+Carnation,Red,Annual,4.75,Yes,Summer,20 inches,Medium,Full sun,Mediterranean
+Hydrangea,Blue,Shrub,14.25,Yes,Summer,48 inches,High,Partial shade,Asia
+Peony,Pink,Perennial,11.50,Yes,Spring,30 inches,Medium,Partial shade,Europe
+Marigold,Orange,Annual,3.99,Yes,Summer,10 inches,Low,Full sun,Europe
+Hibiscus,Red,Shrub,9.99,Yes,Summer,72 inches,High,Full sun,Tropical
+Lavender,Purple,Perennial,8.75,Yes,Summer,24 inches,Low,Full sun,Mediterranean
+Poppy,Red,Annual,5.25,Yes,Summer,18 inches,Low,Full sun,Eurasia
+Gerbera,Diverse,Perennial,10.50,Yes,Summer,12 inches,Medium,Full sun,Africa
+Chrysanthemum,Yellow,Perennial,9.25,Yes,Fall,24 inches,Medium,Full sun,Asia
+Forget-Me-Not,Blue,Perennial,6.99,Yes,Spring,8 inches,High,Partial shade,Europe
+Crocus,Purple,Bulb,6.50,Yes,Spring,6 inches,Low,Full sun,Europe
+Azalea,White,Shrub,13.50,Yes,Spring,36 inches,Medium,Partial shade,Asia
+Dahlia,Various,Perennial,12.00,Yes,Summer,24 inches,Medium,Full sun,Central America
+Columbine,Blue,Perennial,9.75,Yes,Spring,18 inches,Medium,Partial shade,North America
+Pansy,Purple,Annual,4.25,Yes,Summer,6 inches,Low,Partial shade,Europe
+Bougainvillea,Pink,Shrub,11.25,Yes,Summer,72 inches,High,Full sun,South America
+Foxglove,Purple,Perennial,10.25,Yes,Summer,36 inches,Medium,Partial shade,Europe
+Bleeding Heart,Pink,Perennial,13.99,Yes,Spring,24 inches,Medium,Partial shade,Asia
+Snapdragon,Mixed colors,Annual,7.99,Yes,Summer,18 inches,Medium,Full sun,Mediterranean
+Petunia,Purple,Annual,5.50,Yes,Summer,10 inches,Medium,Full sun,South America
+Gladiolus,Various,Perennial,9.99,Yes,Summer,36 inches,High,Full sun,Africa
+Morning Glory,Blue,Annual,6.75,Yes,Summer,72 inches,High,Full sun,North America
+Lupine,Various,Perennial,11.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Iris,Various,Perennial,8.99,Yes,Summer,24 inches,Medium,Full sun,North America
+Snowdrop,White,Bulb,5.99,Yes,Winter,6 inches,Low,Partial shade,Europe
+Verbena,Various,Annual,6.25,Yes,Summer,12 inches,Medium,Full sun,South America
+Anemone,Various,Perennial,9.50,Yes,Fall,18 inches,Medium,Partial shade,Europe
+Fuchsia,Purple,Perennial,12.75,Yes,Summer,24 inches,Medium,Partial shade,Central and South America
+Begonia,Various,Annual,5.99,Yes,Summer,10 inches,Medium,Partial shade,Tropical
+Zinnia,Mixed colors,Annual,4.75,Yes,Summer,24 inches,Low,Full sun,North America
+Ranunculus,Various,Perennial,11.99,Yes,Spring,18 inches,Medium,Partial shade,Europe
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Rose,Red,Perennial,10.99,Yes,Summer,24 inches,High,Full sun,Europe
+Tulip,Yellow,Bulb,8.50,Yes,Spring,12 inches,Medium,Full sun,Asia
+Daisy,White,Annual,5.99,Yes,Summer,18 inches,Low,Full sun,North America
+Lily,Pink,Perennial,12.75,Yes,Summer,36 inches,High,Partial shade,Asia
+Sunflower,Yellow,Annual,6.25,Yes,Summer,60 inches,High,Full sun,North America
+Daffodil,Yellow,Bulb,7.50,Yes,Spring,14 inches,Medium,Full sun,Europe
+Orchid,Purple,Perennial,15.99,Yes,Year-round,12 inches,High,Indirect light,Tropical
+Carnation,Red,Annual,4.75,Yes,Summer,20 inches,Medium,Full sun,Mediterranean
+Hydrangea,Blue,Shrub,14.25,Yes,Summer,48 inches,High,Partial shade,Asia
+Peony,Pink,Perennial,11.50,Yes,Spring,30 inches,Medium,Partial shade,Europe
+Marigold,Orange,Annual,3.99,Yes,Summer,10 inches,Low,Full sun,Europe
+Hibiscus,Red,Shrub,9.99,Yes,Summer,72 inches,High,Full sun,Tropical
+Lavender,Purple,Perennial,8.75,Yes,Summer,24 inches,Low,Full sun,Mediterranean
+Poppy,Red,Annual,5.25,Yes,Summer,18 inches,Low,Full sun,Eurasia
+Gerbera,Diverse,Perennial,10.50,Yes,Summer,12 inches,Medium,Full sun,Africa
+Chrysanthemum,Yellow,Perennial,9.25,Yes,Fall,24 inches,Medium,Full sun,Asia
+Forget-Me-Not,Blue,Perennial,6.99,Yes,Spring,8 inches,High,Partial shade,Europe
+Crocus,Purple,Bulb,6.50,Yes,Spring,6 inches,Low,Full sun,Europe
+Azalea,White,Shrub,13.50,Yes,Spring,36 inches,Medium,Partial shade,Asia
+Dahlia,Various,Perennial,12.00,Yes,Summer,24 inches,Medium,Full sun,Central America
+Columbine,Blue,Perennial,9.75,Yes,Spring,18 inches,Medium,Partial shade,North America
+Pansy,Purple,Annual,4.25,Yes,Summer,6 inches,Low,Partial shade,Europe
+Bougainvillea,Pink,Shrub,11.25,Yes,Summer,72 inches,High,Full sun,South America
+Foxglove,Purple,Perennial,10.25,Yes,Summer,36 inches,Medium,Partial shade,Europe
+Bleeding Heart,Pink,Perennial,13.99,Yes,Spring,24 inches,Medium,Partial shade,Asia
+Snapdragon,Mixed colors,Annual,7.99,Yes,Summer,18 inches,Medium,Full sun,Mediterranean
+Petunia,Purple,Annual,5.50,Yes,Summer,10 inches,Medium,Full sun,South America
+Gladiolus,Various,Perennial,9.99,Yes,Summer,36 inches,High,Full sun,Africa
+Morning Glory,Blue,Annual,6.75,Yes,Summer,72 inches,High,Full sun,North America
+Lupine,Various,Perennial,11.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Iris,Various,Perennial,8.99,Yes,Summer,24 inches,Medium,Full sun,North America
+Snowdrop,White,Bulb,5.99,Yes,Winter,6 inches,Low,Partial shade,Europe
+Verbena,Various,Annual,6.25,Yes,Summer,12 inches,Medium,Full sun,South America
+Anemone,Various,Perennial,9.50,Yes,Fall,18 inches,Medium,Partial shade,Europe
+Fuchsia,Purple,Perennial,12.75,Yes,Summer,24 inches,Medium,Partial shade,Central and South America
+Begonia,Various,Annual,5.99,Yes,Summer,10 inches,Medium,Partial shade,Tropical
+Zinnia,Mixed colors,Annual,4.75,Yes,Summer,24 inches,Low,Full sun,North America
+Ranunculus,Various,Perennial,11.99,Yes,Spring,18 inches,Medium,Partial shade,Europe
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Clematis,Purple,Perennial,14.50,Yes,Summer,72 inches,High,Partial shade,Europe
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Amaryllis,Various,Bulb,12.99,Yes,Winter,24 inches,Medium,Full sun,South Africa
+Bee Balm,Red,Perennial,8.25,Yes,Summer,36 inches,High,Full sun,North America
+Coreopsis,Yellow,Perennial,7.50,Yes,Summer,24 inches,Medium,Full sun,North America
+Cherry Blossom,Pink,Tree,16.99,Yes,Spring,240 inches,High,Full sun,Asia
+Cyclamen,Pink,Perennial,9.99,Yes,Winter,8 inches,Medium,Partial shade,Mediterranean
+Delphinium,Blue,Perennial,10.75,Yes,Summer,48 inches,High,Full sun,Europe
+Freesia,Various,Bulb,8.99,Yes,Spring,18 inches,Medium,Full sun,South Africa
+Gardenia,White,Shrub,14.99,Yes,Summer,36 inches,High,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia
+Hosta,Various,Perennial,8.75,Yes,Summer,24 inches,Medium,Partial shade,Asia

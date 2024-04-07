@@ -1,5 +1,5 @@
+const fs = require("fs");
 const Dataset = require("../models/dataset.models");
-const User = require("../models/user.models");
 const csvToJson = require("../helpers/convertToCsv");
 const analyzeData = require("../helpers/analysis");
 const statistics = require("../helpers/statistics");
@@ -42,12 +42,10 @@ const datasetControllers = {
         res.status(400).json({ message: "Cannont find a csv file!" });
       }
 
-      const csvData = `Name,Age,Gender,Country
-      John Doe,30,Male,USA
-      Jane Smith,25,Female,Canada
-      Michael Johnson,40,Male,UK
-      Emily Brown,35,Female,Australia                
-      `;
+      const csvData = fs.readFileSync(
+        `C:/Users/Admin/Desktop/Github Repos/dashforge/server/uploads/${req.file.filename}`,
+        "utf-8"
+      );
 
       const jsonData = csvToJson(csvData);
 
