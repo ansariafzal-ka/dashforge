@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import { useEffect, useState } from "react";
@@ -36,24 +36,19 @@ const App = () => {
     checkLoggedIn();
   }, []);
 
-  useEffect(() => {
-    if (!isLoggedIn) {
-      navigate("/login");
-    }
-  }, [isLoggedIn, navigate]);
-
   return (
     <Routes>
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/main" element={<Main />}>
-        <Route path="dataset" element={<Dataset />} />
-        <Route path="dashboard" element={<Dashboard />} />
-        <Route path="analytics" element={<Analytics />} />
-        <Route path="history" element={<History />} />
-        <Route path="gen-ai" element={<GenAI />} />
-      </Route>
-      {isLoggedIn ? <Route path="/main" element={<Main />} /> : null}
+      {isLoggedIn && (
+        <Route path="/main" element={<Main />}>
+          <Route path="dataset" element={<Dataset />} />
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="analytics" element={<Analytics />} />
+          <Route path="history" element={<History />} />
+          <Route path="gen-ai" element={<GenAI />} />
+        </Route>
+      )}
     </Routes>
   );
 };

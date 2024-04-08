@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Table from "../utils/Table";
+import Button from "../utils/Button";
 
 const Dataset = () => {
   const [isUploaded, setisUploaded] = useState(
@@ -54,29 +55,26 @@ const Dataset = () => {
       if (response.status === 200) {
         setData(response.data[0].dataset);
       }
-    } catch (error) {
-      alert(error);
-    }
+    } catch (error) {}
   };
 
   useEffect(() => {
-    if (id) {
+    if (id.length > 0) {
       fetchData(id);
     }
   }, [id]);
 
   return (
     <section>
-      <div>
+      <div className="flex justify-center items-center bg-white border-b p-5">
         <form onSubmit={handleSubmit}>
-          <input type="file" id="fileInput" />
-          <button type="submit">Upload</button>
+          <input type="file" id="fileInput" className="w-[220px]" />
+          <Button type={"submit"} title="upload" />
         </form>
       </div>
 
-      <div className="p-4 max-h-[500px] max-w-[1085px] overflow-auto">
+      <div className="p-4 max-h-[500px] max-w-[1099px] overflow-auto">
         <h1 className="text-gray-500 font-medium mb-2">Dataset</h1>
-        <button>X</button>
         <Table data={data} />
       </div>
     </section>

@@ -47,7 +47,7 @@ const SideBar = () => {
             <li key={key}>
               <Link
                 to={val.link}
-                className={`cursor-pointer flex items-center gap-1 font-medium p-2 rounded duration-75 ${
+                className={`cursor-pointer flex items-center gap-1 font-medium p-2 rounded hover:bg-violet-600 hover:text-white duration-75 ${
                   activeLink === key ? "bg-violet-600 text-white" : ""
                 }`}
                 onClick={() => handleSetActiveLink(key)}
