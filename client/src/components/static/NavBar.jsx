@@ -1,19 +1,24 @@
 import React from "react";
 import axios from "axios";
 import Button from "../utils/Button";
+import Cookies from "js-cookie";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+
   const handleLogout = async () => {
     try {
-      console.log("in try");
       const response = await axios.post(
         "http://localhost:5000/api/v1/users/logout",
+        {},
         {
           withCredentials: true,
         }
       );
       if (response.status === 200) {
-        alert("logged out");
+        Cookies.remove("accessToken");
+        navigate("/login");
       }
     } catch (error) {
       alert(error);
@@ -28,7 +33,6 @@ const NavBar = () => {
         <h1 className="text-xl text-primary font-bold">DashForge</h1>
       </div>
       <Button type="button" title="Logout" onClick={handleLogout} />
-      {/* <button onClick={handleLogout}>logout</button> */}
     </nav>
   );
 };

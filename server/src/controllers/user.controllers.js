@@ -3,6 +3,17 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 const userController = {
+  verifyAuth: async (req, res) => {
+    try {
+      const user = await User.findById(req.userId);
+      const { password, ...userInfo } = user._doc;
+      res
+        .status(200)
+        .json({ message: "User logged in", user_details: userInfo });
+    } catch (error) {
+      res.status(500).json({ message: "error : ", error });
+    }
+  },
   createUser: async (req, res) => {
     try {
       const { name, email, password } = req.body;

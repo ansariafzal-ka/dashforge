@@ -22,8 +22,8 @@ const App = () => {
           withCredentials: true,
         }
       );
-      console.log(response);
       if (response.status === 200) {
+        console.log(response.data);
         setIsLoggedIn(true);
         navigate("/main/dataset");
       }

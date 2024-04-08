@@ -49,12 +49,13 @@ const datasetControllers = {
 
       const jsonData = csvToJson(csvData);
 
-      await Dataset.create({
+      const dataset = await Dataset.create({
         user: req.userId,
+        filename: req.file.filename,
         dataset: jsonData,
       });
 
-      res.status(201).json({ message: "successful" });
+      res.status(201).json({ message: "Dataset uploaded", id: dataset._id });
     } catch (error) {
       res.status(500).json({ message: "Error uploading dataset", error });
     }
@@ -65,7 +66,7 @@ const datasetControllers = {
       const { id } = req.params;
       const data = await Dataset.find({ user: req.userId, _id: id });
       const analysis = analyzeData(data[0].dataset);
-      res.send(analysis);
+      res.json(analysis);
     } catch (error) {
       res.status(500).json({ message: "Error fetching analysis", error });
     }
@@ -76,7 +77,7 @@ const datasetControllers = {
       const { id } = req.params;
       const data = await Dataset.find({ user: req.userId, _id: id });
       const generateStatistics = statistics(data[0].dataset);
-      res.send(generateStatistics);
+      res.json(generateStatistics);
     } catch (error) {
       res.status(500).json({ message: "Error fetching statistics", error });
     }

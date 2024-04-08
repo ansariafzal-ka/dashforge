@@ -5,6 +5,10 @@ const datasetSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
+  filename: {
+    type: String,
+    required: true,
+  },
   dataset: {
     type: Object,
     required: true,
