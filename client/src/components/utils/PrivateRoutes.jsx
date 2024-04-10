@@ -3,7 +3,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import axios from "axios";
 
 const PrivateRoutes = () => {
-  const [auth, setAuth] = useState(false);
+  const [auth, setAuth] = useState(true);
 
   const isAuthenticated = async () => {
     try {

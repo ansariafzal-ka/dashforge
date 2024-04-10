@@ -20,6 +20,7 @@ const NavBar = ({ userData }) => {
       if (response.status === 200) {
         Cookies.remove("accessToken");
         navigate("/login");
+        window.location.reload();
       }
     } catch (error) {
       alert(error);

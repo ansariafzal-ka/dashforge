@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Button from "./utils/Button";
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,10 +18,10 @@ const Register = () => {
         password: password,
       });
       if (response.status === 201) {
-        alert("Registered successfully");
         setName("");
         setEmail("");
         setPassword("");
+        navigate("/login");
       }
     } catch (error) {
       alert(error);

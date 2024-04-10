@@ -11,7 +11,7 @@ const SideBar = () => {
     {
       title: "Dataset",
       icon: <MdDataset />,
-      link: "/main/dataset",
+      link: "/main",
     },
     {
       title: "Dashboard",

@@ -85,7 +85,7 @@ const userController = {
 
   logoutUser: async (req, res) => {
     res
-      .clearCookie("accessToken", { sameSite: "none", secure: false })
+      .clearCookie("accessToken", { sameSite: "Lax", secure: false })
       .status(200)
       .send({ message: "Logged out successfully" });
   },

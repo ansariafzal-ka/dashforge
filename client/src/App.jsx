@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, Outlet, useNavigate } from "react-router-dom";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import { useEffect, useState } from "react";
@@ -24,10 +24,9 @@ const App = () => {
         }
       );
       if (response.status === 200) {
-        console.log(response.data);
         setUserData(response.data);
         setIsLoggedIn(true);
-        navigate("/main/dataset");
+        navigate("/main");
       }
     } catch (error) {
       setIsLoggedIn(false);
@@ -44,7 +43,7 @@ const App = () => {
       <Route path="/login" element={<Login />} />
       {isLoggedIn && (
         <Route path="/main" element={<Main userData={userData} />}>
-          <Route path="dataset" element={<Dataset />} />
+          <Route path="/main" element={<Dataset />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="analytics" element={<Analytics />} />
           <Route path="history" element={<History />} />
