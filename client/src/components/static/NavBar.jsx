@@ -4,8 +4,9 @@ import Button from "../utils/Button";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ userData }) => {
   const navigate = useNavigate();
+  console.log(userData.user_details);
 
   const handleLogout = async () => {
     try {
@@ -32,7 +33,15 @@ const NavBar = () => {
       <div className="flex items-center gap-1">
         <h1 className="text-xl text-primary font-bold">DashForge</h1>
       </div>
-      <Button type="button" title="Logout" onClick={handleLogout} />
+      <div className="flex flex-row justify-center items-center gap-3">
+        <div>
+          <h1 className="text-[16px] font-medium text-gray-800">
+            {userData.user_details.name}
+          </h1>
+          <p className="text-gray-500">{userData.user_details.email}</p>
+        </div>
+        <Button type="button" title="Logout" onClick={handleLogout} />
+      </div>
     </nav>
   );
 };

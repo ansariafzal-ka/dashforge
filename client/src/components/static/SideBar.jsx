@@ -40,7 +40,7 @@ const SideBar = () => {
   };
 
   return (
-    <div className="min-w-[250px] h-full bg-white border-r">
+    <div className="min-w-[250px] h-[full] bg-white border-r">
       <ul className="p-4 flex flex-col gap-y-2">
         {sideBarLink.map((val, key) => {
           return (

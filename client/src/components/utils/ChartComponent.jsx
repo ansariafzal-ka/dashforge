@@ -2,8 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 
 const ChartComponent = ({ xData, yData }) => {
-  const [selectedXData, setSelectedXData] = useState("");
-  const [selectedYData, setSelectedYData] = useState("");
+  const [selectedXData, setSelectedXData] = useState(
+    Object.keys(xData)[0] || ""
+  );
+  const [selectedYData, setSelectedYData] = useState(
+    Object.keys(yData)[0] || ""
+  );
   const [chartType, setChartType] = useState("bar");
   const chartRef = useRef(null);
   const chartInstance = useRef(null);
@@ -105,7 +109,7 @@ const ChartComponent = ({ xData, yData }) => {
             onChange={handleChartTypeChange}
             className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
           >
-            {["bar", "line", "scatter", "radar"].map((type) => (
+            {["bar", "line", "scatter", "pie", "radar"].map((type) => (
               <option key={type} value={type}>
                 {type}
               </option>

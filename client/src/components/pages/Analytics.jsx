@@ -24,7 +24,7 @@ const Analytics = () => {
         setAnalytics(response.data);
       }
     } catch (error) {
-      alert(error);
+      console.log(error);
     }
   };
 
@@ -41,7 +41,7 @@ const Analytics = () => {
         setStatistics(response.data);
       }
     } catch (error) {
-      alert(error);
+      console.log(error);
     }
   };
 

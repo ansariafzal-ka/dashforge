@@ -4,14 +4,15 @@ import Login from "./components/Login";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Main from "./components/Main";
-import Dataset from "./components/dynamic/Dataset";
-import Dashboard from "./components/dynamic/Dashboard";
-import Analytics from "./components/dynamic/Analytics";
-import History from "./components/dynamic/History";
-import GenAI from "./components/dynamic/GenAI";
+import Dataset from "./components/pages/Dataset";
+import Dashboard from "./components/pages/Dashboard";
+import Analytics from "./components/pages/Analytics";
+import History from "./components/pages/History";
+import GenAI from "./components/pages/GenAI";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [userData, setUserData] = useState("");
   const navigate = useNavigate();
 
   const checkLoggedIn = async () => {
@@ -24,6 +25,7 @@ const App = () => {
       );
       if (response.status === 200) {
         console.log(response.data);
+        setUserData(response.data);
         setIsLoggedIn(true);
         navigate("/main/dataset");
       }
@@ -41,7 +43,7 @@ const App = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       {isLoggedIn && (
-        <Route path="/main" element={<Main />}>
+        <Route path="/main" element={<Main userData={userData} />}>
           <Route path="dataset" element={<Dataset />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="analytics" element={<Analytics />} />

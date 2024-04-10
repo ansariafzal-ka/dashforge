@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Table from "../utils/Table";
+import Table from "../utils/table/Table";
 import Button from "../utils/Button";
 
 const Dataset = () => {
@@ -55,11 +55,13 @@ const Dataset = () => {
       if (response.status === 200) {
         setData(response.data[0].dataset);
       }
-    } catch (error) {}
+    } catch (error) {
+      console.log("Error", error);
+    }
   };
 
   useEffect(() => {
-    if (id.length > 0) {
+    if (id !== "") {
       fetchData(id);
     }
   }, [id]);

@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import xData from "../../utils/xData.json";
-// import yData from "../../utils/yData.json";
 import ChartComponent from "../utils/ChartComponent";
 import axios from "axios";
 
@@ -25,7 +23,7 @@ const Dashboard = () => {
         setxData(response.data);
       }
     } catch (error) {
-      alert(error);
+      console.log(error);
     }
   };
 
@@ -42,7 +40,7 @@ const Dashboard = () => {
         setyData(response.data);
       }
     } catch (error) {
-      alert(error);
+      console.log(error);
     }
   };
 

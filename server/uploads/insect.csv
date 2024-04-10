@@ -1,0 +1,40 @@
+species,family,order,region,habitat,life_span,color,average_length (cm),average_weight (g),average_temperature (°C)
+Butterfly,Nymphalidae,Lepidoptera,"North America",Forest,2 weeks,Various,5,0.1,22
+Honey Bee,Apidae,Hymenoptera,Worldwide,Fields,6 weeks,Yellow and black,1.2,0.09,25
+Ladybug,Coccinellidae,Coleoptera,Worldwide,Gardens,1 year,Red and black,0.6,0.05,20
+Monarch Butterfly,Nymphalidae,Lepidoptera,"North America",Open fields,4-6 weeks,Orange and black,6,0.12,24
+Mosquito,Culicidae,Diptera,Worldwide,Swamps,2 weeks,Brown,0.5,0.002,28
+Ant,Formicidae,Hymenoptera,Worldwide,Nests,Varies,Varies,0.3,0.001,22
+Dragonfly,Libellulidae,Odonata,Worldwide,Ponds,1-6 months,Various,8,0.2,26
+Grasshopper,Acrididae,Orthoptera,Worldwide,Grasslands,1 year,Green,4,0.05,21
+Housefly,Muscidae,Diptera,Worldwide,Households,28 days,Gray,0.5,0.0009,24
+Beetle,Coleoptera,Coleoptera,Worldwide,Forests,Varies,Various,3,0.08,23
+Caterpillar,Lepidoptera,Various,Worldwide,Various,Varies,Varies,2,0.01,20
+Bumblebee,Apidae,Hymenoptera,Worldwide,Fields,2-3 weeks,Black and yellow,1.5,0.07,25
+Firefly,Lampyridae,Coleoptera,Worldwide,Forests,2 months,Green,1.8,0.05,22
+Wasp,Vespidae,Hymenoptera,Worldwide,Nests,Varies,Black and yellow,2.2,0.08,26
+Cicada,Cicadidae,Hemiptera,Worldwide,Trees,2-17 years,Green and brown,4.5,0.1,28
+Tarantula,Araneidae,Araneae,Worldwide,Deserts,25-30 years,Brown and black,12,0.5,30
+Scorpion,Scorpionidae,Scorpiones,Worldwide,Deserts,5-8 years,Brown,15,0.6,35
+House Spider,Araneae,Araneae,Worldwide,Indoors,1-2 years,Brown,1,0.002,20
+Mosquito Hawk,Tipulidae,Diptera,Worldwide,Ponds,1 year,Brown,6,0.5,22
+Moth,Lepidoptera,Lepidoptera,Worldwide,Forests,2 weeks,Gray,2,0.02,18
+Blue Morpho,Nymphalidae,Lepidoptera,South America,Rainforests,3-4 weeks,Blue,12,0.08,30
+Beetle Larva,Coleoptera,Coleoptera,Worldwide,Soil,Varies,White,1,0.05,22
+Grasshopper,Acrididae,Orthoptera,Worldwide,Fields,1 year,Green,5,0.1,25
+Stag Beetle,Lucanidae,Coleoptera,Worldwide,Decaying wood,3-5 years,Brown,7,0.1,24
+June Beetle,Scarabaeidae,Coleoptera,North America,Gardens,2 years,Brown,2,0.02,20
+Beetle Pupa,Coleoptera,Coleoptera,Worldwide,Soil,1-2 weeks,White,1.5,0.06,23
+Bumblebee,Apidae,Hymenoptera,Worldwide,Gardens,4-8 weeks,Yellow and black,2.5,0.09,28
+Praying Mantis,Mantidae,Mantodea,Worldwide,Forests,6 months to 1 year,Green,6,0.1,26
+Atlas Moth,Saturniidae,Lepidoptera,Asia,Rainforests,1-2 weeks,Brown,25,0.5,28
+Goliath Beetle,Scarabaeidae,Coleoptera,Africa,Rainforests,3-5 years,Black,11,0.6,30
+Antlion,Myrmeleontidae,Neuroptera,Worldwide,Sandy areas,1-2 years,Brown,4,0.05,24
+Butterfly Fish,Chaetodontidae,Perciformes,Indo-Pacific,Ocean reefs,5 years,Yellow and black,15,0.1,26
+Longhorn Beetle,Cerambycidae,Coleoptera,Worldwide,Forests,1-3 years,Black,8,0.15,22
+Stick Insect,Phasmatodea,Phasmatodea,Worldwide,Forests,1-3 years,Green,20,0.02,20
+Walking Stick,Phasmatodea,Phasmatodea,Worldwide,Forests,1-2 years,Brown,15,0.02,20
+Jewel Beetle,Buprestidae,Coleoptera,Worldwide,Forests,2 years,Green,4,0.08,24
+Cockroach,Blattodea,Blattodea,Worldwide,Households,1 year,Brown,3,0.03,25
+Cricket,Gryllidae,Orthoptera,Worldwide,Fields,2-3 months,Brown,2,0.02,22
+Fruit Fly,Drosophilidae,Diptera,Worldwide,Orchards,2 weeks,Yellow,0.3,0.0001,24

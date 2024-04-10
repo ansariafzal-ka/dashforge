@@ -5,6 +5,7 @@ const analyzeData = require("../helpers/analysis");
 const statistics = require("../helpers/statistics");
 const numeric = require("../helpers/numeric");
 const nonNumeric = require("../helpers/nonNumeric");
+const genAI = require("../helpers/genAI");
 
 const datasetControllers = {
   getAllDataset: async (req, res) => {
@@ -123,6 +124,26 @@ const datasetControllers = {
       res.status(200).json({ message: "Dataset deleted successfully" });
     } catch (error) {
       res.status(500).json({ message: "dataset already deleted", error });
+    }
+  },
+
+  getSummary: async (req, res) => {
+    try {
+      const { id } = req.params;
+      const prompt = req.body.prompt;
+
+      const data = await Dataset.findById({ user: req.userId, _id: id });
+      const custom_prompt =
+        prompt +
+        JSON.stringify(data.dataset) +
+        "and could you kindly provide a thorough and detailed response, avoiding the use of tabular format?";
+
+      const aiRes = await genAI(custom_prompt);
+
+      res.status(200).json({ response: aiRes });
+    } catch (error) {
+      res.status(500).json(error);
+      console.log(error);
     }
   },
 };
