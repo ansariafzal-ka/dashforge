@@ -1,6 +1,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI("AIzaSyD84JVijbtThxYompDBmhqHjZ9t5t90yyg");
+const GEMENI_API_KEY = process.env.GEMENI_API_KEY
+const genAI = new GoogleGenerativeAI(GEMENI_API_KEY);
 
 async function getResponse(prompt) {
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
